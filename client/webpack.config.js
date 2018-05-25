@@ -49,6 +49,9 @@ module.exports = {
             options: { jsx: true }
           }
         ]
+      }, {
+        test: /\.(png|jpg)$/,
+        loader: 'file-loader'
       }
     ]
   }
