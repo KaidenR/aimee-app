@@ -5,16 +5,21 @@
   "scripts": {
     "build": "tsc",
     "start": "ts-node ./src/index.ts",
-    "start:dev": "nodemon --exec 'npm run start' --ext ts"
+    "start:dev": "nodemon --exec 'npm run start' --ext ts,js"
   },
   "author": "Kaiden Rawlinson",
   "dependencies": {
+    "@types/dotenv": "^4.0.3",
     "@types/express": "^4.11.1",
     "@types/node": "^10.0.8",
+    "@types/pg": "^7.4.9",
     "@types/socket.io": "^1.4.33",
     "axios": "^0.18.0",
+    "dotenv": "^5.0.1",
     "express": "^4.16.3",
     "nodemon": "^1.17.5",
+    "pg": "^7.4.3",
+    "sql-template-strings": "^2.2.2",
     "ts-node": "^6.0.3",
     "typescript": "^2.8.3"
   }
