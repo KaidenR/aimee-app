@@ -1,0 +1,13 @@
+{
+  "name": "web-app-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "postinstall": "cd api && yarn && cd ../client && yarn",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kaiden Rawlinson",
+  "keywords": []
+}
